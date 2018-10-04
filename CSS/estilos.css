@@ -1,0 +1,349 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : , 2017, 10:28:49 AM
+    Author     : DiegoNunes
+*/
+
+
+
+header.page{
+    top: 0px;
+    left:0px;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    background: linear-gradient(-90deg,#000000,#3a4146);
+    position: relative;
+    display:block;
+}
+
+header a:link { color: white; }
+header a:visited { color: white; }
+header a:hover { color: white; }
+header a:active { color: white; }
+
+
+
+.page {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#logo{
+    position: absolute;
+    height: 100%;
+    bottom: 1px;
+}
+
+#navigationcontainer ul a{
+    color: white;
+}
+
+#navigationcontainer li{
+    list-style-type: none;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+
+
+
+
+
+#navigationcontainer li a{
+    text-decoration: none;
+    line-height: 70px;
+    padding-right: 10px;
+    float: right;
+    padding-top: 15px;
+}
+
+
+
+
+
+footer.page{
+    position:relative;
+    height:83px;
+    background:black;
+    clear:both;
+    padding-bottom: 0px;
+}
+
+
+#colleft{
+    float: left;
+    line-height: 40px;
+}
+
+nav {
+    float: left;
+    max-width: 400px;
+    margin: 1px;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+    overflow: auto;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+nav ul li {
+    white-space: nowrap;
+}
+
+nav li a{
+    display: block;
+    color: #000;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#middle{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.left{
+    text-align:left;
+    float:left;
+}
+
+.right{
+    float:right;
+    text-align:right;
+    margin-top: 0px;
+    color: white;
+    margin-right: 10px;
+}
+.centered{
+    text-align:center;
+    margin-top: 0px;
+    color: white;
+}
+
+.ImagensPromocoes
+{
+    text-align: center;
+}
+
+.ImagensFornecedores
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.imgPromocoes
+{
+    display:inline-block;
+    margin: 5px 20px;
+    padding: 5px;    
+}
+
+h3
+{
+    text-align: center;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color:  #000000;
+    color: white;
+}
+
+.imgTabela{
+    float: left;
+    padding-left: 5px;
+}
+
+.question
+{
+    font-weight:bold;
+}
+
+#colunaesquerda{
+    margin-bottom: 0px;
+
+}
+
+.createElementos{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.management{
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.management li {
+    list-style-type: none;
+    padding: 20px;
+    display: inline;
+}
+
+.management li a:hover {
+    color: white;
+    background-color: #3a4146 ;
+    display: inline;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    color: #000;
+}
+
+input[type=submit], button[type=submit], #registo {
+    position: relative;
+    width: 25%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text], input[type=number], input[type=date], select, input[type=password], input[type=email] {
+    position: relative;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=date]:focus, select:focus, input[type=password]:focus {
+    background-color: lightblue;
+    border: 3px solid #555;
+}
+
+#colleft_products{
+    position: relative;
+
+}
+
+#wrapper div {
+    text-align: left;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#wrapper a{
+    border: #3a4146 solid 1px;
+}
+
+
+
+.search form {
+    float: right;
+    position: relative;
+    padding-right: 10px;
+}
+
+.search input{
+    background-color: transparent;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    font-size: 15px;
+    outline: none;
+    color: white;
+}
+
+.search input.border_bar{
+    border-style: solid;
+    border-bottom-color: grey;
+}
+
+#tables-edit table{
+    
+    height: 100px;
+    max-width: 1000px;
+    min-width: 1000px;
+    border: 2px solid grey;
+    background-color: #B8B8B8;
+    border-radius: 1em;
+    margin: 0 auto;
+    
+}
+
+
+@media (min-width: 599px){
+    #colleft{
+        float: left;
+        width: 100px;
+    }
+    main{
+        margin-left: 110px;
+    }
+
+    footer {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+
+        width: 100%;
+        height: 100%;
+    }
+}
